@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#hr_cabecera{
+    background-color: #cc9900;
+    border: solid #cc9900;
+    padding-bottom: 10px;
+    width: 80%; 
+    height: 10px;
+    margin: auto; 
+}
+a{
+  padding-right: 15px;
+}
+
+h1{
+  text-align: left;
+}
+
+h2{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h3{
+  color: #cc9900;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+div{
+  width: 900px;
+  margin: auto;
+  margin-bottom:20px;
+  
+}
+
+li{
+  padding-bottom: 6px;
+  margin-left: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton{
+  background-color:#800;
+  border-radius: 15px;
+  color: white;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  
+}
+
+.boton:hover{
+  background-color: #cc9900; /* Esto no lo pidio maestro pero quise agregar un detalle en el que al pasar el cursor por alguno de los botones dicho boton cambia de color */
+}
+
+.contenedor_botones {
+    
+    width: fit-content; 
+    margin: auto;       
+    border: none;       
+  
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px; 
+  
+}
+
+.contenedor_sitio{
+  background-color: #F2F2F2;
+  border: solid #F2F2F2;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.hr_naranja{
+  background-color: #cc9900;
+  width: 80px;
+  height: 10px;
+  margin-bottom: 50px;
+}
+
+.hr_rojo{
+  background-color: #800;
+  width: 80px;
+  height: 10px;
+  margin: auto;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+#texto_naranja{
+  color: #cc9900;
+}
+
+#texto_rojo{
+  color: #800;
+}
+
+.borde_div{
+ border: solid 5px #800;
+ border-radius: 10px;
+  width: 900px;
+  margin: auto;
+  margin-bottom:20px;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen_contenedor{
+  display: block;      
+  margin-left: auto;   
+  margin-right: auto;  
+  margin-bottom: 20px; 
+  width: 450px;        
+  height: auto;        
+  border-radius: 20px; 
+  padding: 10px;  
+}     
+
+.imagen_tec{
+  width: 100px;
+  height: 100px;
+}
+
+.contenedor_menu{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.semestre_titulo {
+  display: flex;         
+  align-items: center;   
+  width: auto;           
+  border: none;          
+  margin-bottom: 10px;  
+}
+
+.imagen_engranaje {
+  width: 30px;           
+  height: 30px;
+  margin-right: 15px;    
+}
+
+.informacion_alumno{
+  background-color: #800;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70%; 
+    
+}
