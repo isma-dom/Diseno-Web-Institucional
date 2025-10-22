@@ -1,0 +1,1 @@
+Creación de una página informativa con estructura institucional. El proyecto demuestra el uso de HTML5 semántico para organizar contenido académico (objetivos, campo de trabajo, lista de materias). El diseño CSS utiliza técnicas para el diseño de contenedores, bordes y la alineación de elementos con Flexbox para una presentación profesional y organizada.
